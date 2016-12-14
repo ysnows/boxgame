@@ -12,28 +12,29 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		3186D0F21E014D6100B0A0ED /* ODSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0EC1E014D6100B0A0ED /* ODSocket.cpp */; };
-		3186D0F31E014D6100B0A0ED /* ODSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0EC1E014D6100B0A0ED /* ODSocket.cpp */; };
-		3186D0F41E014D6100B0A0ED /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0EE1E014D6100B0A0ED /* stdafx.cpp */; };
-		3186D0F51E014D6100B0A0ED /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0EE1E014D6100B0A0ED /* stdafx.cpp */; };
-		3186D1081E014F5700B0A0ED /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0F61E014F5700B0A0ED /* AppDelegate.cpp */; };
-		3186D1091E014F5700B0A0ED /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0F61E014F5700B0A0ED /* AppDelegate.cpp */; };
-		3186D10A1E014F5700B0A0ED /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0F81E014F5700B0A0ED /* Common.cpp */; };
-		3186D10B1E014F5700B0A0ED /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0F81E014F5700B0A0ED /* Common.cpp */; };
-		3186D10C1E014F5700B0A0ED /* CreateRoomLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0FA1E014F5700B0A0ED /* CreateRoomLayer.cpp */; };
-		3186D10D1E014F5700B0A0ED /* CreateRoomLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0FA1E014F5700B0A0ED /* CreateRoomLayer.cpp */; };
-		3186D10E1E014F5700B0A0ED /* ForgetPwdLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0FC1E014F5700B0A0ED /* ForgetPwdLayer.cpp */; };
-		3186D10F1E014F5700B0A0ED /* ForgetPwdLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0FC1E014F5700B0A0ED /* ForgetPwdLayer.cpp */; };
-		3186D1101E014F5700B0A0ED /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0FE1E014F5700B0A0ED /* HelloWorldScene.cpp */; };
-		3186D1111E014F5700B0A0ED /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D0FE1E014F5700B0A0ED /* HelloWorldScene.cpp */; };
-		3186D1121E014F5700B0A0ED /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D1001E014F5700B0A0ED /* LoginLayer.cpp */; };
-		3186D1131E014F5700B0A0ED /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D1001E014F5700B0A0ED /* LoginLayer.cpp */; };
-		3186D1141E014F5700B0A0ED /* MainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D1021E014F5700B0A0ED /* MainLayer.cpp */; };
-		3186D1151E014F5700B0A0ED /* MainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D1021E014F5700B0A0ED /* MainLayer.cpp */; };
-		3186D1161E014F5700B0A0ED /* NetUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D1041E014F5700B0A0ED /* NetUtils.cpp */; };
-		3186D1171E014F5700B0A0ED /* NetUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D1041E014F5700B0A0ED /* NetUtils.cpp */; };
-		3186D1181E014F5700B0A0ED /* SocketTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D1061E014F5700B0A0ED /* SocketTestLayer.cpp */; };
-		3186D1191E014F5700B0A0ED /* SocketTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3186D1061E014F5700B0A0ED /* SocketTestLayer.cpp */; };
+		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
+		3162E37E1E01737600AC1B8C /* ODSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3781E01737600AC1B8C /* ODSocket.cpp */; };
+		3162E37F1E01737600AC1B8C /* ODSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3781E01737600AC1B8C /* ODSocket.cpp */; };
+		3162E3801E01737600AC1B8C /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E37A1E01737600AC1B8C /* stdafx.cpp */; };
+		3162E3811E01737600AC1B8C /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E37A1E01737600AC1B8C /* stdafx.cpp */; };
+		3162E38B1E01739E00AC1B8C /* CreateRoomLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3831E01739E00AC1B8C /* CreateRoomLayer.cpp */; };
+		3162E38C1E01739E00AC1B8C /* CreateRoomLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3831E01739E00AC1B8C /* CreateRoomLayer.cpp */; };
+		3162E38D1E01739E00AC1B8C /* ForgetPwdLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3851E01739E00AC1B8C /* ForgetPwdLayer.cpp */; };
+		3162E38E1E01739E00AC1B8C /* ForgetPwdLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3851E01739E00AC1B8C /* ForgetPwdLayer.cpp */; };
+		3162E38F1E01739E00AC1B8C /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3871E01739E00AC1B8C /* LoginLayer.cpp */; };
+		3162E3901E01739E00AC1B8C /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3871E01739E00AC1B8C /* LoginLayer.cpp */; };
+		3162E3911E01739E00AC1B8C /* MainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3891E01739E00AC1B8C /* MainLayer.cpp */; };
+		3162E3921E01739E00AC1B8C /* MainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3891E01739E00AC1B8C /* MainLayer.cpp */; };
+		3162E39D1E0173C300AC1B8C /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3931E0173C300AC1B8C /* AppDelegate.cpp */; };
+		3162E39E1E0173C300AC1B8C /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3931E0173C300AC1B8C /* AppDelegate.cpp */; };
+		3162E39F1E0173C300AC1B8C /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3951E0173C300AC1B8C /* Common.cpp */; };
+		3162E3A01E0173C300AC1B8C /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3951E0173C300AC1B8C /* Common.cpp */; };
+		3162E3A11E0173C300AC1B8C /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3971E0173C300AC1B8C /* HelloWorldScene.cpp */; };
+		3162E3A21E0173C300AC1B8C /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3971E0173C300AC1B8C /* HelloWorldScene.cpp */; };
+		3162E3A31E0173C300AC1B8C /* NetUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3991E0173C300AC1B8C /* NetUtils.cpp */; };
+		3162E3A41E0173C300AC1B8C /* NetUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E3991E0173C300AC1B8C /* NetUtils.cpp */; };
+		3162E3A51E0173C300AC1B8C /* SocketTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E39B1E0173C300AC1B8C /* SocketTestLayer.cpp */; };
+		3162E3A61E0173C300AC1B8C /* SocketTestLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3162E39B1E0173C300AC1B8C /* SocketTestLayer.cpp */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
@@ -118,6 +119,13 @@
 			remoteGlobalIDString = A07A4C241783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
 		};
+		3162E3751E01736C00AC1B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 507B40FD1C31BDD30067B53E;
+			remoteInfo = "libcocos2d tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -127,30 +135,31 @@
 		1D6058910D05DD3D006BFB54 /* boxgame-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "boxgame-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3186D0EC1E014D6100B0A0ED /* ODSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ODSocket.cpp; sourceTree = "<group>"; };
-		3186D0ED1E014D6100B0A0ED /* ODSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODSocket.h; sourceTree = "<group>"; };
-		3186D0EE1E014D6100B0A0ED /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
-		3186D0EF1E014D6100B0A0ED /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
-		3186D0F01E014D6100B0A0ED /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = targetver.h; sourceTree = "<group>"; };
-		3186D0F11E014D6100B0A0ED /* tchar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tchar.h; sourceTree = "<group>"; };
-		3186D0F61E014F5700B0A0ED /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
-		3186D0F71E014F5700B0A0ED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3186D0F81E014F5700B0A0ED /* Common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Common.cpp; sourceTree = "<group>"; };
-		3186D0F91E014F5700B0A0ED /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		3186D0FA1E014F5700B0A0ED /* CreateRoomLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreateRoomLayer.cpp; sourceTree = "<group>"; };
-		3186D0FB1E014F5700B0A0ED /* CreateRoomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRoomLayer.h; sourceTree = "<group>"; };
-		3186D0FC1E014F5700B0A0ED /* ForgetPwdLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ForgetPwdLayer.cpp; sourceTree = "<group>"; };
-		3186D0FD1E014F5700B0A0ED /* ForgetPwdLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdLayer.h; sourceTree = "<group>"; };
-		3186D0FE1E014F5700B0A0ED /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
-		3186D0FF1E014F5700B0A0ED /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
-		3186D1001E014F5700B0A0ED /* LoginLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoginLayer.cpp; sourceTree = "<group>"; };
-		3186D1011E014F5700B0A0ED /* LoginLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginLayer.h; sourceTree = "<group>"; };
-		3186D1021E014F5700B0A0ED /* MainLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainLayer.cpp; sourceTree = "<group>"; };
-		3186D1031E014F5700B0A0ED /* MainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLayer.h; sourceTree = "<group>"; };
-		3186D1041E014F5700B0A0ED /* NetUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetUtils.cpp; sourceTree = "<group>"; };
-		3186D1051E014F5700B0A0ED /* NetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetUtils.h; sourceTree = "<group>"; };
-		3186D1061E014F5700B0A0ED /* SocketTestLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketTestLayer.cpp; sourceTree = "<group>"; };
-		3186D1071E014F5700B0A0ED /* SocketTestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketTestLayer.h; sourceTree = "<group>"; };
+		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		3162E3781E01737600AC1B8C /* ODSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ODSocket.cpp; sourceTree = "<group>"; };
+		3162E3791E01737600AC1B8C /* ODSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODSocket.h; sourceTree = "<group>"; };
+		3162E37A1E01737600AC1B8C /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		3162E37B1E01737600AC1B8C /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		3162E37C1E01737600AC1B8C /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = targetver.h; sourceTree = "<group>"; };
+		3162E37D1E01737600AC1B8C /* tchar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tchar.h; sourceTree = "<group>"; };
+		3162E3831E01739E00AC1B8C /* CreateRoomLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreateRoomLayer.cpp; sourceTree = "<group>"; };
+		3162E3841E01739E00AC1B8C /* CreateRoomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRoomLayer.h; sourceTree = "<group>"; };
+		3162E3851E01739E00AC1B8C /* ForgetPwdLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ForgetPwdLayer.cpp; sourceTree = "<group>"; };
+		3162E3861E01739E00AC1B8C /* ForgetPwdLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdLayer.h; sourceTree = "<group>"; };
+		3162E3871E01739E00AC1B8C /* LoginLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoginLayer.cpp; sourceTree = "<group>"; };
+		3162E3881E01739E00AC1B8C /* LoginLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginLayer.h; sourceTree = "<group>"; };
+		3162E3891E01739E00AC1B8C /* MainLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainLayer.cpp; sourceTree = "<group>"; };
+		3162E38A1E01739E00AC1B8C /* MainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLayer.h; sourceTree = "<group>"; };
+		3162E3931E0173C300AC1B8C /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		3162E3941E0173C300AC1B8C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3162E3951E0173C300AC1B8C /* Common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Common.cpp; sourceTree = "<group>"; };
+		3162E3961E0173C300AC1B8C /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		3162E3971E0173C300AC1B8C /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
+		3162E3981E0173C300AC1B8C /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
+		3162E3991E0173C300AC1B8C /* NetUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetUtils.cpp; sourceTree = "<group>"; };
+		3162E39A1E0173C300AC1B8C /* NetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetUtils.h; sourceTree = "<group>"; };
+		3162E39B1E0173C300AC1B8C /* SocketTestLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketTestLayer.cpp; sourceTree = "<group>"; };
+		3162E39C1E0173C300AC1B8C /* SocketTestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketTestLayer.h; sourceTree = "<group>"; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
@@ -208,6 +217,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
@@ -275,6 +285,7 @@
 			children = (
 				1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */,
 				1AC6FB07180E9839004C840B /* libcocos2d iOS.a */,
+				3162E3761E01736C00AC1B8C /* libcocos2d tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -296,6 +307,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
 				8262943D1AAF051F00CB7CF7 /* Security.framework */,
@@ -319,24 +331,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3186D0EA1E014D5600B0A0ED /* layer */ = {
+		3162E3771E01737600AC1B8C /* ODSocket */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = layer;
-			sourceTree = "<group>";
-		};
-		3186D0EB1E014D6100B0A0ED /* ODSocket */ = {
-			isa = PBXGroup;
-			children = (
-				3186D0EC1E014D6100B0A0ED /* ODSocket.cpp */,
-				3186D0ED1E014D6100B0A0ED /* ODSocket.h */,
-				3186D0EE1E014D6100B0A0ED /* stdafx.cpp */,
-				3186D0EF1E014D6100B0A0ED /* stdafx.h */,
-				3186D0F01E014D6100B0A0ED /* targetver.h */,
-				3186D0F11E014D6100B0A0ED /* tchar.h */,
+				3162E3781E01737600AC1B8C /* ODSocket.cpp */,
+				3162E3791E01737600AC1B8C /* ODSocket.h */,
+				3162E37A1E01737600AC1B8C /* stdafx.cpp */,
+				3162E37B1E01737600AC1B8C /* stdafx.h */,
+				3162E37C1E01737600AC1B8C /* targetver.h */,
+				3162E37D1E01737600AC1B8C /* tchar.h */,
 			);
 			path = ODSocket;
+			sourceTree = "<group>";
+		};
+		3162E3821E01739000AC1B8C /* layer */ = {
+			isa = PBXGroup;
+			children = (
+				3162E3831E01739E00AC1B8C /* CreateRoomLayer.cpp */,
+				3162E3841E01739E00AC1B8C /* CreateRoomLayer.h */,
+				3162E3851E01739E00AC1B8C /* ForgetPwdLayer.cpp */,
+				3162E3861E01739E00AC1B8C /* ForgetPwdLayer.h */,
+				3162E3871E01739E00AC1B8C /* LoginLayer.cpp */,
+				3162E3881E01739E00AC1B8C /* LoginLayer.h */,
+				3162E3891E01739E00AC1B8C /* MainLayer.cpp */,
+				3162E38A1E01739E00AC1B8C /* MainLayer.h */,
+			);
+			name = layer;
 			sourceTree = "<group>";
 		};
 		46880B7519C43A67006E1F66 /* Resources */ = {
@@ -355,26 +375,18 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3186D0F61E014F5700B0A0ED /* AppDelegate.cpp */,
-				3186D0F71E014F5700B0A0ED /* AppDelegate.h */,
-				3186D0F81E014F5700B0A0ED /* Common.cpp */,
-				3186D0F91E014F5700B0A0ED /* Common.h */,
-				3186D0FA1E014F5700B0A0ED /* CreateRoomLayer.cpp */,
-				3186D0FB1E014F5700B0A0ED /* CreateRoomLayer.h */,
-				3186D0FC1E014F5700B0A0ED /* ForgetPwdLayer.cpp */,
-				3186D0FD1E014F5700B0A0ED /* ForgetPwdLayer.h */,
-				3186D0FE1E014F5700B0A0ED /* HelloWorldScene.cpp */,
-				3186D0FF1E014F5700B0A0ED /* HelloWorldScene.h */,
-				3186D1001E014F5700B0A0ED /* LoginLayer.cpp */,
-				3186D1011E014F5700B0A0ED /* LoginLayer.h */,
-				3186D1021E014F5700B0A0ED /* MainLayer.cpp */,
-				3186D1031E014F5700B0A0ED /* MainLayer.h */,
-				3186D1041E014F5700B0A0ED /* NetUtils.cpp */,
-				3186D1051E014F5700B0A0ED /* NetUtils.h */,
-				3186D1061E014F5700B0A0ED /* SocketTestLayer.cpp */,
-				3186D1071E014F5700B0A0ED /* SocketTestLayer.h */,
-				3186D0EB1E014D6100B0A0ED /* ODSocket */,
-				3186D0EA1E014D5600B0A0ED /* layer */,
+				3162E3931E0173C300AC1B8C /* AppDelegate.cpp */,
+				3162E3941E0173C300AC1B8C /* AppDelegate.h */,
+				3162E3951E0173C300AC1B8C /* Common.cpp */,
+				3162E3961E0173C300AC1B8C /* Common.h */,
+				3162E3971E0173C300AC1B8C /* HelloWorldScene.cpp */,
+				3162E3981E0173C300AC1B8C /* HelloWorldScene.h */,
+				3162E3991E0173C300AC1B8C /* NetUtils.cpp */,
+				3162E39A1E0173C300AC1B8C /* NetUtils.h */,
+				3162E39B1E0173C300AC1B8C /* SocketTestLayer.cpp */,
+				3162E39C1E0173C300AC1B8C /* SocketTestLayer.h */,
+				3162E3821E01739000AC1B8C /* layer */,
+				3162E3771E01737600AC1B8C /* ODSocket */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -473,11 +485,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				TargetAttributes = {
-					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = WRML67X6F3;
-					};
-				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "boxgame" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -518,6 +525,13 @@
 			fileType = archive.ar;
 			path = "libcocos2d iOS.a";
 			remoteRef = 1AC6FB06180E9839004C840B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3162E3761E01736C00AC1B8C /* libcocos2d tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d tvOS.a";
+			remoteRef = 3162E3751E01736C00AC1B8C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -574,19 +588,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
-				3186D1121E014F5700B0A0ED /* LoginLayer.cpp in Sources */,
-				3186D1181E014F5700B0A0ED /* SocketTestLayer.cpp in Sources */,
+				3162E3911E01739E00AC1B8C /* MainLayer.cpp in Sources */,
+				3162E3A51E0173C300AC1B8C /* SocketTestLayer.cpp in Sources */,
+				3162E3A11E0173C300AC1B8C /* HelloWorldScene.cpp in Sources */,
+				3162E39D1E0173C300AC1B8C /* AppDelegate.cpp in Sources */,
+				3162E37E1E01737600AC1B8C /* ODSocket.cpp in Sources */,
+				3162E38B1E01739E00AC1B8C /* CreateRoomLayer.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
-				3186D10C1E014F5700B0A0ED /* CreateRoomLayer.cpp in Sources */,
-				3186D1141E014F5700B0A0ED /* MainLayer.cpp in Sources */,
-				3186D1081E014F5700B0A0ED /* AppDelegate.cpp in Sources */,
-				3186D10E1E014F5700B0A0ED /* ForgetPwdLayer.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
-				3186D1101E014F5700B0A0ED /* HelloWorldScene.cpp in Sources */,
-				3186D0F41E014D6100B0A0ED /* stdafx.cpp in Sources */,
-				3186D10A1E014F5700B0A0ED /* Common.cpp in Sources */,
-				3186D0F21E014D6100B0A0ED /* ODSocket.cpp in Sources */,
-				3186D1161E014F5700B0A0ED /* NetUtils.cpp in Sources */,
+				3162E38F1E01739E00AC1B8C /* LoginLayer.cpp in Sources */,
+				3162E38D1E01739E00AC1B8C /* ForgetPwdLayer.cpp in Sources */,
+				3162E3801E01737600AC1B8C /* stdafx.cpp in Sources */,
+				3162E39F1E0173C300AC1B8C /* Common.cpp in Sources */,
+				3162E3A31E0173C300AC1B8C /* NetUtils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,18 +608,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3186D1091E014F5700B0A0ED /* AppDelegate.cpp in Sources */,
-				3186D0F31E014D6100B0A0ED /* ODSocket.cpp in Sources */,
-				3186D1151E014F5700B0A0ED /* MainLayer.cpp in Sources */,
-				3186D10D1E014F5700B0A0ED /* CreateRoomLayer.cpp in Sources */,
+				3162E3921E01739E00AC1B8C /* MainLayer.cpp in Sources */,
+				3162E3811E01737600AC1B8C /* stdafx.cpp in Sources */,
+				3162E3A01E0173C300AC1B8C /* Common.cpp in Sources */,
+				3162E3901E01739E00AC1B8C /* LoginLayer.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				3186D1131E014F5700B0A0ED /* LoginLayer.cpp in Sources */,
-				3186D10B1E014F5700B0A0ED /* Common.cpp in Sources */,
-				3186D1171E014F5700B0A0ED /* NetUtils.cpp in Sources */,
-				3186D10F1E014F5700B0A0ED /* ForgetPwdLayer.cpp in Sources */,
-				3186D1111E014F5700B0A0ED /* HelloWorldScene.cpp in Sources */,
-				3186D1191E014F5700B0A0ED /* SocketTestLayer.cpp in Sources */,
-				3186D0F51E014D6100B0A0ED /* stdafx.cpp in Sources */,
+				3162E39E1E0173C300AC1B8C /* AppDelegate.cpp in Sources */,
+				3162E3A21E0173C300AC1B8C /* HelloWorldScene.cpp in Sources */,
+				3162E3A41E0173C300AC1B8C /* NetUtils.cpp in Sources */,
+				3162E38C1E01739E00AC1B8C /* CreateRoomLayer.cpp in Sources */,
+				3162E38E1E01739E00AC1B8C /* ForgetPwdLayer.cpp in Sources */,
+				3162E3A61E0173C300AC1B8C /* SocketTestLayer.cpp in Sources */,
+				3162E37F1E01737600AC1B8C /* ODSocket.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,7 +645,6 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = WRML67X6F3;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -639,16 +652,11 @@
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_FILE32API,
-					CC_TARGET_OS_IPHONE,
 					"COCOS2D_DEBUG=1",
 					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
-					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
@@ -670,22 +678,16 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = WRML67X6F3;
 				ENABLE_BITCODE = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_FILE32API,
-					CC_TARGET_OS_IPHONE,
 					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
-					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
@@ -714,14 +716,12 @@
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_FILE32API,
-					CC_TARGET_OS_MAC,
 					"COCOS2D_DEBUG=1",
 					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../cocos2d/cocos/platform/mac",
 					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
@@ -746,13 +746,11 @@
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_FILE32API,
-					CC_TARGET_OS_MAC,
 					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../cocos2d/cocos/platform/mac",
 					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
@@ -776,15 +774,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../cocos2d",
-					"$(SRCROOT)/../cocos2d/cocos",
-					"$(SRCROOT)/../cocos2d/cocos/base",
-					"$(SRCROOT)/../cocos2d/cocos/physics",
-					"$(SRCROOT)/../cocos2d/cocos/math",
-					"$(SRCROOT)/../cocos2d/cocos/2d",
-					"$(SRCROOT)/../cocos2d/cocos/ui",
-					"$(SRCROOT)/../cocos2d/cocos/network",
 					"$(SRCROOT)/../cocos2d/cocos/audio/include",
-					"$(SRCROOT)/../cocos2d/cocos/editor-support",
+					"$(SRCROOT)/../cocos2d/cocos",
 					"$(SRCROOT)/../cocos2d/extensions",
 					"$(SRCROOT)/../cocos2d/external",
 					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
@@ -806,15 +797,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../cocos2d",
-					"$(SRCROOT)/../cocos2d/cocos",
-					"$(SRCROOT)/../cocos2d/cocos/base",
-					"$(SRCROOT)/../cocos2d/cocos/physics",
-					"$(SRCROOT)/../cocos2d/cocos/math",
-					"$(SRCROOT)/../cocos2d/cocos/2d",
-					"$(SRCROOT)/../cocos2d/cocos/ui",
-					"$(SRCROOT)/../cocos2d/cocos/network",
 					"$(SRCROOT)/../cocos2d/cocos/audio/include",
-					"$(SRCROOT)/../cocos2d/cocos/editor-support",
+					"$(SRCROOT)/../cocos2d/cocos",
 					"$(SRCROOT)/../cocos2d/extensions",
 					"$(SRCROOT)/../cocos2d/external",
 					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
