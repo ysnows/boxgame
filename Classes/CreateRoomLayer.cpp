@@ -26,13 +26,71 @@ void CreateRoomLayer::onCreateGameLayer(){
     
     auto btn_1=dynamic_cast<Button *>(_rootLayout->getChildByName("Button_1"));
     btn_1->addClickEventListener([this](Ref *sender){
-        
         auto transition=TransitionProgressOutIn::create(0.3, MainLayer::createScene());
         director->replaceScene(transition);
         
         });
-    }
+    
+    
+    auto btn_2=dynamic_cast<Button *>(_rootLayout->getChildByName("Button_2"));
+    btn_2->addClickEventListener([this](Ref *sender){
+        auto context=this;
+        hPost("main/createRoom", "number=1&person_count=2&playway=2", [context](HttpClient* client, HttpResponse* response){
+            if (response->isSucceed()) {
+                vector<char> *charVector= response->getResponseData();
+                string str(charVector->begin(),charVector->end());
+                
+                Document d;
+                d.Parse<rapidjson::kParseDefaultFlags>(str.c_str());
+                
+                
+                auto code=d["code"].GetInt();
+                auto msg=d["msg"].GetString();
+                
+                if (code==OK) {
+                   //进入房间
+                    string roomId=d["data"].GetString();
+                    
+                    context->enterRoom(roomId);
+                    
+                }else{
+                    
+                }
+            }
+        });
+        
+        
+        
+    });
+    
+ }
 
+void CreateRoomLayer::enterRoom(string roomId){
+        hGet("main/enterRoom?roomId="+roomId, [this](HttpClient* client, HttpResponse* response){
+        if (response->isSucceed()) {
+            vector<char> *charVector= response->getResponseData();
+            string str(charVector->begin(),charVector->end());
+            
+            Document d;
+            d.Parse<rapidjson::kParseDefaultFlags>(str.c_str());
+            
+            auto code=d["code"].GetInt();
+            auto msg=d["msg"].GetString();
+            
+            if (code==OK) {
+                switchSceneOut(GameLayer::createScene());
+               }else{
+                
+            }
+        }
+    });
+    
+    
+    
+    
+    
+    
+}
 
 void CreateRoomLayer::onClick(Ref *sender){
   Button *view=dynamic_cast<Button *>(sender);
@@ -40,10 +98,9 @@ void CreateRoomLayer::onClick(Ref *sender){
   if (view==nullptr) {
       return;
   }
-
+  
   switch (view->getTag()) {
       case 1:
-
 
           break;
 

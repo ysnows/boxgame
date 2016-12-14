@@ -70,6 +70,8 @@ void LoginLayer::login(string user_name, string pwd){
             }
       }
     });
+    
+  
 
     
 }

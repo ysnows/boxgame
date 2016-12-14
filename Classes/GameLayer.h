@@ -1,13 +1,13 @@
 //
-//  CreateRoomLayer.h
-//  box
+//  GameLayer.h
+//  boxgame
 //
-//  Created by 咸光金 on 2016/12/13.
+//  Created by 咸光金 on 2016/12/14.
 //
 //
 
-#ifndef CreateRoomLayer_h
-#define CreateRoomLayer_h
+#ifndef GameLayer_h
+#define GameLayer_h
 
 #include <stdio.h>
 using namespace std;
@@ -18,20 +18,19 @@ USING_NS_CC;
 #include "editor-support/cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 
+#include "Common.h"
+
+
 using namespace ui;
 using namespace cocostudio;
 using namespace cocostudio::timeline;
 
-#include "MainLayer.h"
 
-#include "Common.h"
 
-#include "GameLayer.h"
-
-class CreateRoomLayer :public Layer {
+class GameLayer :public Layer {
 
 public:
-    CREATE_FUNC(CreateRoomLayer);
+    CREATE_FUNC(GameLayer);
     virtual bool init();
     static Scene * createScene();
 
@@ -43,8 +42,6 @@ public:
     void onClick(Ref *sender);
 
     void initThings();
-    
-    void enterRoom(string roomId);
 
 
 public:
@@ -58,4 +55,4 @@ public:
 
 
 
-#endif /* CreateRoomLayer_hpp */
+#endif /* GameLayer_hpp */
